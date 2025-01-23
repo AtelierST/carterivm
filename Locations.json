@@ -1,0 +1,3205 @@
+{
+   "@iot.nextLink": "https://api-samenmeten.rivm.nl/v1.0/Locations?$top=200&$skip=200",
+   "value": [
+      {
+         "@iot.id": 30973,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30973)",
+         "name": "loc-name-LTD_83857",
+         "description": "loc-desc-LTD_83857",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.528,
+               53.22
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30973)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30973)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30972,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30972)",
+         "name": "loc-name-GLOBE_351901936636632",
+         "description": "loc-desc-GLOBE_351901936636632",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.259,
+               52.072
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30972)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30972)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30971,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30971)",
+         "name": "loc-name-LTD_83850",
+         "description": "loc-desc-LTD_83850",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               0,
+               0
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30971)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30971)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30970,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30970)",
+         "name": "loc-name-SSK_USP01",
+         "description": "loc-desc-SSK_USP01",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.164,
+               52.084
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30970)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30970)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30969,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30969)",
+         "name": "loc-name-SSK_USP03",
+         "description": "loc-desc-SSK_USP03",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.172,
+               52.084
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30969)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30969)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30968,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30968)",
+         "name": "loc-name-SSK_USP04",
+         "description": "loc-desc-SSK_USP04",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.176,
+               52.085
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30968)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30968)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30967,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30967)",
+         "name": "loc-name-HLL_hl_device_544",
+         "description": "loc-desc-HLL_hl_device_544",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.595,
+               52.463
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30967)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30967)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30966,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30966)",
+         "name": "loc-name-NBI_SB955",
+         "description": "loc-desc-NBI_SB955",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.48,
+               51.925
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30966)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30966)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30965,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30965)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.296,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30965)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30965)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30964,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30964)",
+         "name": "loc-name-MJS_840",
+         "description": "loc-desc-MJS_840",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.071,
+               52.09
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30964)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30964)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30963,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30963)",
+         "name": "loc-name-LTD_83802",
+         "description": "loc-desc-LTD_83802",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.482,
+               52.066
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30963)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30963)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30962,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30962)",
+         "name": "loc-name-HLL_hl_device_238",
+         "description": "loc-desc-HLL_hl_device_238",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.653,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30962)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30962)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30961,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30961)",
+         "name": "loc-name-LUC_354444115535199",
+         "description": "loc-desc-LUC_354444115535199",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.753,
+               52.008
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30961)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30961)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30960,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30960)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.3,
+               52.066
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30960)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30960)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30959,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30959)",
+         "name": "loc-name-HLL_hl_device_254",
+         "description": "loc-desc-HLL_hl_device_254",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.653,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30959)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30959)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30958,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30958)",
+         "name": "loc-name-LTD_83799",
+         "description": "loc-desc-LTD_83799",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.401,
+               51.511
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30958)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30958)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30957,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30957)",
+         "name": "loc-name-LTD_83801",
+         "description": "loc-desc-LTD_83801",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.482,
+               52.066
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30957)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30957)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30956,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30956)",
+         "name": "loc-name-LTD_83795",
+         "description": "loc-desc-LTD_83795",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.654,
+               52.142
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30956)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30956)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30955,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30955)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               3.541,
+               53.38
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30955)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30955)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30954,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30954)",
+         "name": "loc-name-HLL_hl_device_503",
+         "description": "loc-desc-HLL_hl_device_503",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.817,
+               52.448
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30954)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30954)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30953,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30953)",
+         "name": "loc-name-HLL_hl_device_506",
+         "description": "loc-desc-HLL_hl_device_506",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.282,
+               52.293
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30953)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30953)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30952,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30952)",
+         "name": "loc-name-LTD_83767",
+         "description": "loc-desc-LTD_83767",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30952)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30952)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30951,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30951)",
+         "name": "loc-name-LTD_83326",
+         "description": "loc-desc-LTD_83326",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.391,
+               52.008
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30951)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30951)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30950,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30950)",
+         "name": "loc-name-LTD_83776",
+         "description": "loc-desc-LTD_83776",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30950)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30950)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30949,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30949)",
+         "name": "loc-name-LTD_83748",
+         "description": "loc-desc-LTD_83748",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.196,
+               52.218
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30949)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30949)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30948,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30948)",
+         "name": "loc-name-LTD_83778",
+         "description": "loc-desc-LTD_83778",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.736,
+               52.659
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30948)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30948)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30947,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30947)",
+         "name": "loc-name-LTD_83781",
+         "description": "loc-desc-LTD_83781",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.736,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30947)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30947)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30946,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30946)",
+         "name": "loc-name-LTD_83775",
+         "description": "loc-desc-LTD_83775",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30946)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30946)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30945,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30945)",
+         "name": "loc-name-LTD_83768",
+         "description": "loc-desc-LTD_83768",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.733,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30945)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30945)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30944,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30944)",
+         "name": "loc-name-LTD_83774",
+         "description": "loc-desc-LTD_83774",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30944)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30944)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30943,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30943)",
+         "name": "loc-name-LTD_83773",
+         "description": "loc-desc-LTD_83773",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30943)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30943)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30942,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30942)",
+         "name": "loc-name-LTD_83777",
+         "description": "loc-desc-LTD_83777",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.735,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30942)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30942)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30941,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30941)",
+         "name": "loc-name-LTD_83769",
+         "description": "loc-desc-LTD_83769",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30941)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30941)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30940,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30940)",
+         "name": "loc-name-LTD_83754",
+         "description": "loc-desc-LTD_83754",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.393,
+               51.517
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30940)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30940)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30939,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30939)",
+         "name": "loc-name-LTD_83770",
+         "description": "loc-desc-LTD_83770",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.734,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30939)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30939)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30938,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30938)",
+         "name": "loc-name-LTD_83782",
+         "description": "loc-desc-LTD_83782",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.746,
+               52.662
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30938)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30938)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30937,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30937)",
+         "name": "loc-name-LTD_83779",
+         "description": "loc-desc-LTD_83779",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.736,
+               52.66
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30937)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30937)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30936,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30936)",
+         "name": "loc-name-NBI_SB955",
+         "description": "loc-desc-NBI_SB955",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.482,
+               51.927
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30936)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30936)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30935,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30935)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.279,
+               52.087
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30935)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30935)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30934,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30934)",
+         "name": "loc-name-HLL_hl_device_503",
+         "description": "loc-desc-HLL_hl_device_503",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.817,
+               52.451
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30934)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30934)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30933,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30933)",
+         "name": "loc-name-HLL_hl_device_506",
+         "description": "loc-desc-HLL_hl_device_506",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.284,
+               52.291
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30933)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30933)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30932,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30932)",
+         "name": "loc-name-LTD_82351",
+         "description": "loc-desc-LTD_82351",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.404,
+               52.123
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30932)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30932)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30931,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30931)",
+         "name": "loc-name-LTD_83669",
+         "description": "loc-desc-LTD_83669",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.157,
+               51.733
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30931)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30931)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30930,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30930)",
+         "name": "loc-name-LTD_83666",
+         "description": "loc-desc-LTD_83666",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.97,
+               53.38
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30930)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30930)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30929,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30929)",
+         "name": "loc-name-HLL_hl_device_336",
+         "description": "loc-desc-HLL_hl_device_336",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.261,
+               52.247
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30929)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30929)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30928,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30928)",
+         "name": "loc-name-HLL_hl_device_246",
+         "description": "loc-desc-HLL_hl_device_246",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.602,
+               52.46
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30928)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30928)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30927,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30927)",
+         "name": "loc-name-NBI_BV720",
+         "description": "loc-desc-NBI_BV720",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.164,
+               51.367
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30927)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30927)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30926,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30926)",
+         "name": "loc-name-LTD_83594",
+         "description": "loc-desc-LTD_83594",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.382,
+               52.162
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30926)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30926)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30925,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30925)",
+         "name": "loc-name-LTD_83639",
+         "description": "loc-desc-LTD_83639",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.708,
+               51.262
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30925)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30925)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30924,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30924)",
+         "name": "loc-name-NBI_BV720",
+         "description": "loc-desc-NBI_BV720",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.169,
+               51.367
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30924)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30924)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30923,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30923)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.295,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30923)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30923)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30922,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30922)",
+         "name": "loc-name-LTD_83624",
+         "description": "loc-desc-LTD_83624",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.154,
+               51.728
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30922)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30922)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30921,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30921)",
+         "name": "loc-name-LTD_83622",
+         "description": "loc-desc-LTD_83622",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.172,
+               51.69
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30921)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30921)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30920,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30920)",
+         "name": "loc-name-OHN_fl-4117",
+         "description": "loc-desc-OHN_fl-4117",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               0,
+               0
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30920)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30920)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30919,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30919)",
+         "name": "loc-name-GLB_9449371",
+         "description": "loc-desc-GLB_9449371",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               3.88,
+               51.508
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30919)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30919)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30918,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30918)",
+         "name": "loc-name-HLL_hl_device_333",
+         "description": "loc-desc-HLL_hl_device_333",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.684,
+               52.495
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30918)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30918)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30917,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30917)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.284,
+               54.279
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30917)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30917)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30916,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30916)",
+         "name": "loc-name-HLL_hl_device_435",
+         "description": "loc-desc-HLL_hl_device_435",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.632,
+               52.372
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30916)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30916)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30915,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30915)",
+         "name": "loc-name-NBI_SB959",
+         "description": "loc-desc-NBI_SB959",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.389,
+               52.088
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30915)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30915)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30914,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30914)",
+         "name": "loc-name-LTD_83595",
+         "description": "loc-desc-LTD_83595",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.702,
+               50.852
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30914)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30914)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30913,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30913)",
+         "name": "loc-name-HLL_hl_device_333",
+         "description": "loc-desc-HLL_hl_device_333",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.682,
+               52.497
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30913)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30913)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30912,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30912)",
+         "name": "loc-name-NBI_SB969",
+         "description": "loc-desc-NBI_SB969",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.535,
+               52.009
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30912)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30912)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30911,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30911)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.295,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30911)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30911)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30910,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30910)",
+         "name": "loc-name-HLL_hl_device_336",
+         "description": "loc-desc-HLL_hl_device_336",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.257,
+               52.247
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30910)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30910)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30909,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30909)",
+         "name": "loc-name-HLL_hl_device_435",
+         "description": "loc-desc-HLL_hl_device_435",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.628,
+               52.373
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30909)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30909)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30908,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30908)",
+         "name": "loc-name-NBI_BV718",
+         "description": "loc-desc-NBI_BV718",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.17,
+               51.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30908)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30908)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30907,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30907)",
+         "name": "loc-name-LTD_83577",
+         "description": "loc-desc-LTD_83577",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.5,
+               52.134
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30907)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30907)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30906,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30906)",
+         "name": "loc-name-OHN_fl-4136",
+         "description": "loc-desc-OHN_fl-4136",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.616,
+               52.333
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30906)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30906)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30905,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30905)",
+         "name": "loc-name-NBI_BV718",
+         "description": "loc-desc-NBI_BV718",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.171,
+               51.398
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30905)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30905)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30904,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30904)",
+         "name": "loc-name-OZK_1804",
+         "description": "loc-desc-OZK_1804",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               11.336,
+               44.491
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30904)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30904)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30903,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30903)",
+         "name": "loc-name-NBI_SB969",
+         "description": "loc-desc-NBI_SB969",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.533,
+               52.007
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30903)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30903)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30902,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30902)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               3.64,
+               52.585
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30902)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30902)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30901,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30901)",
+         "name": "loc-name-NBI_SB959",
+         "description": "loc-desc-NBI_SB959",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.39,
+               52.086
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30901)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30901)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30900,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30900)",
+         "name": "loc-name-OZK_1804",
+         "description": "loc-desc-OZK_1804",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               11.326,
+               44.492
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30900)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30900)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30899,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30899)",
+         "name": "loc-name-NBI_BV612",
+         "description": "loc-desc-NBI_BV612",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.977,
+               51.529
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30899)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30899)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30898,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30898)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.835,
+               52.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30898)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30898)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30897,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30897)",
+         "name": "loc-name-OHN_fl-4123",
+         "description": "loc-desc-OHN_fl-4123",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.787,
+               52.721
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30897)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30897)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30896,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30896)",
+         "name": "loc-name-LTD_83483",
+         "description": "loc-desc-LTD_83483",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.913,
+               51.991
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30896)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30896)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30895,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30895)",
+         "name": "loc-name-NBI_BV612",
+         "description": "loc-desc-NBI_BV612",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.98,
+               51.527
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30895)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30895)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30894,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30894)",
+         "name": "loc-name-SSK_USP02",
+         "description": "loc-desc-SSK_USP02",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.169,
+               52.085
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30894)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30894)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30893,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30893)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.647,
+               52.478
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30893)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30893)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30892,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30892)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.854,
+               52.376
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30892)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30892)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30891,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30891)",
+         "name": "loc-name-LTD_83434",
+         "description": "loc-desc-LTD_83434",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.128,
+               51.678
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30891)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30891)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30890,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30890)",
+         "name": "loc-name-LTD_83435",
+         "description": "loc-desc-LTD_83435",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.177,
+               52.157
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30890)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30890)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30889,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30889)",
+         "name": "loc-name-OZK_1804",
+         "description": "loc-desc-OZK_1804",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               11.337,
+               44.491
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30889)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30889)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30888,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30888)",
+         "name": "loc-name-SSK_USP02",
+         "description": "loc-desc-SSK_USP02",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.166,
+               52.087
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30888)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30888)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30887,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30887)",
+         "name": "loc-name-LUC_354444115535199",
+         "description": "loc-desc-LUC_354444115535199",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.715,
+               52.01
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30887)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30887)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30886,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30886)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.296,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30886)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30886)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30885,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30885)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.643,
+               52.483
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30885)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30885)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30884,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30884)",
+         "name": "loc-name-HLL_hl_device_406",
+         "description": "loc-desc-HLL_hl_device_406",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.637,
+               52.511
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30884)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30884)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30883,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30883)",
+         "name": "loc-name-LTD_83411",
+         "description": "loc-desc-LTD_83411",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.555,
+               51.465
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30883)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30883)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30882,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30882)",
+         "name": "loc-name-OHN_fl-4171",
+         "description": "loc-desc-OHN_fl-4171",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.418,
+               52.456
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30882)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30882)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30881,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30881)",
+         "name": "loc-name-OZK_1804",
+         "description": "loc-desc-OZK_1804",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               11.338,
+               44.487
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30881)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30881)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30880,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30880)",
+         "name": "loc-name-HLL_hl_device_434",
+         "description": "loc-desc-HLL_hl_device_434",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.651,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30880)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30880)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30879,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30879)",
+         "name": "loc-name-LUC_355523767661806",
+         "description": "loc-desc-LUC_355523767661806",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.649,
+               52.153
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30879)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30879)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30878,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30878)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.296,
+               52.071
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30878)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30878)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30877,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30877)",
+         "name": "loc-name-MJS_2017",
+         "description": "loc-desc-MJS_2017",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.382,
+               52.26
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30877)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30877)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30876,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30876)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.833,
+               52.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30876)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30876)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30875,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30875)",
+         "name": "loc-name-LTD_83400",
+         "description": "loc-desc-LTD_83400",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.082,
+               51.568
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30875)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30875)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30874,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30874)",
+         "name": "loc-name-HLL_hl_device_434",
+         "description": "loc-desc-HLL_hl_device_434",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.653,
+               52.497
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30874)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30874)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30873,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30873)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.848,
+               52.374
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30873)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30873)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30872,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30872)",
+         "name": "loc-name-LTD_83381",
+         "description": "loc-desc-LTD_83381",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.887,
+               51.624
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30872)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30872)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30871,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30871)",
+         "name": "loc-name-LTD_83382",
+         "description": "loc-desc-LTD_83382",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.887,
+               51.624
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30871)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30871)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30870,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30870)",
+         "name": "loc-name-LTD_83372",
+         "description": "loc-desc-LTD_83372",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.144,
+               51.678
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30870)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30870)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30869,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30869)",
+         "name": "loc-name-LTD_83367",
+         "description": "loc-desc-LTD_83367",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.142,
+               51.414
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30869)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30869)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30868,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30868)",
+         "name": "loc-name-LTD_83365",
+         "description": "loc-desc-LTD_83365",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.908,
+               51.09
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30868)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30868)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30867,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30867)",
+         "name": "loc-name-LUC_354724647888152",
+         "description": "loc-desc-LUC_354724647888152",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.473,
+               51.927
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30867)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30867)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30866,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30866)",
+         "name": "loc-name-LUC_355523767661806",
+         "description": "loc-desc-LUC_355523767661806",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.716,
+               52.01
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30866)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30866)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30865,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30865)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.296,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30865)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30865)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30864,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30864)",
+         "name": "loc-name-LTD_83352",
+         "description": "loc-desc-LTD_83352",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.464,
+               51.468
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30864)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30864)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30863,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30863)",
+         "name": "loc-name-LUC_354724647888152",
+         "description": "loc-desc-LUC_354724647888152",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.473,
+               51.924
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30863)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30863)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30862,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30862)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.299,
+               52.065
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30862)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30862)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30861,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30861)",
+         "name": "loc-name-LTD_83306",
+         "description": "loc-desc-LTD_83306",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.435,
+               51.619
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30861)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30861)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30860,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30860)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.834,
+               52.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30860)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30860)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30859,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30859)",
+         "name": "loc-name-LTD_83289",
+         "description": "loc-desc-LTD_83289",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.923,
+               52.658
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30859)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30859)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30858,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30858)",
+         "name": "loc-name-LUC_355523767674692",
+         "description": "loc-desc-LUC_355523767674692",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.693,
+               52.023
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30858)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30858)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30857,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30857)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.826,
+               52.374
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30857)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30857)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30856,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30856)",
+         "name": "loc-name-HLL_hl_device_406",
+         "description": "loc-desc-HLL_hl_device_406",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.654,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30856)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30856)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30855,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30855)",
+         "name": "loc-name-HLL_hl_device_406",
+         "description": "loc-desc-HLL_hl_device_406",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.683,
+               52.49
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30855)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30855)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30854,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30854)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.296,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30854)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30854)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30853,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30853)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.832,
+               52.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30853)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30853)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30852,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30852)",
+         "name": "loc-name-HLL_hl_device_266",
+         "description": "loc-desc-HLL_hl_device_266",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.665,
+               52.376
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30852)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30852)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30851,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30851)",
+         "name": "loc-name-LTD_83137",
+         "description": "loc-desc-LTD_83137",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.531,
+               52.347
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30851)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30851)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30850,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30850)",
+         "name": "loc-name-LTD_83129",
+         "description": "loc-desc-LTD_83129",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.646,
+               51.967
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30850)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30850)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30849,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30849)",
+         "name": "loc-name-LTD_83118",
+         "description": "loc-desc-LTD_83118",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.752,
+               52.08
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30849)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30849)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30848,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30848)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.291,
+               52.072
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30848)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30848)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30847,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30847)",
+         "name": "loc-name-LUC_355523767674692",
+         "description": "loc-desc-LUC_355523767674692",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.715,
+               52.01
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30847)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30847)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30846,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30846)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.827,
+               52.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30846)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30846)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30845,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30845)",
+         "name": "loc-name-HLL_hl_device_266",
+         "description": "loc-desc-HLL_hl_device_266",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.667,
+               52.38
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30845)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30845)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30844,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30844)",
+         "name": "loc-name-LUC_354724647886677",
+         "description": "loc-desc-LUC_354724647886677",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.487,
+               51.906
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30844)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30844)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30843,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30843)",
+         "name": "loc-name-LTD_82972",
+         "description": "loc-desc-LTD_82972",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.196,
+               52.218
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30843)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30843)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30842,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30842)",
+         "name": "loc-name-LTD_83018",
+         "description": "loc-desc-LTD_83018",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.925,
+               51.963
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30842)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30842)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30841,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30841)",
+         "name": "loc-name-MJS_840",
+         "description": "loc-desc-MJS_840",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               0,
+               0
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30841)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30841)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30840,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30840)",
+         "name": "loc-name-OHN_fl-4134",
+         "description": "loc-desc-OHN_fl-4134",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.495,
+               52.35
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30840)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30840)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30839,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30839)",
+         "name": "loc-name-OZK_1807",
+         "description": "loc-desc-OZK_1807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.826,
+               52.363
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30839)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30839)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30838,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30838)",
+         "name": "loc-name-LUC_354724647886677",
+         "description": "loc-desc-LUC_354724647886677",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.493,
+               51.906
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30838)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30838)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30837,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30837)",
+         "name": "loc-name-LTD_83063",
+         "description": "loc-desc-LTD_83063",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.317,
+               51.512
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30837)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30837)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30836,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30836)",
+         "name": "loc-name-LTD_83052",
+         "description": "loc-desc-LTD_83052",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.154,
+               51.728
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30836)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30836)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30835,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30835)",
+         "name": "loc-name-NBI_SB941",
+         "description": "loc-desc-NBI_SB941",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.348,
+               52.052
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30835)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30835)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30834,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30834)",
+         "name": "loc-name-MJS_2163",
+         "description": "loc-desc-MJS_2163",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.092,
+               51.559
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30834)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30834)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30833,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30833)",
+         "name": "loc-name-LTD_83031",
+         "description": "loc-desc-LTD_83031",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.142,
+               51.414
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30833)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30833)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30832,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30832)",
+         "name": "loc-name-NBI_SB941",
+         "description": "loc-desc-NBI_SB941",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.349,
+               52.054
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30832)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30832)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30831,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30831)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.296,
+               52.069
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30831)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30831)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30830,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30830)",
+         "name": "loc-name-LTD_82995",
+         "description": "loc-desc-LTD_82995",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.678,
+               51.976
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30830)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30830)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30829,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30829)",
+         "name": "loc-name-NBI_SB955",
+         "description": "loc-desc-NBI_SB955",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.48,
+               51.925
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30829)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30829)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30828,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30828)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.299,
+               52.066
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30828)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30828)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30827,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30827)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.647,
+               52.478
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30827)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30827)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30826,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30826)",
+         "name": "loc-name-LTD_82969",
+         "description": "loc-desc-LTD_82969",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.468,
+               52.002
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30826)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30826)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30825,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30825)",
+         "name": "loc-name-LTD_82984",
+         "description": "loc-desc-LTD_82984",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.665,
+               53.088
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30825)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30825)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30824,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30824)",
+         "name": "loc-name-LTD_82926",
+         "description": "loc-desc-LTD_82926",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.356,
+               52.336
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30824)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30824)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30823,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30823)",
+         "name": "loc-name-LTD_82925",
+         "description": "loc-desc-LTD_82925",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.536,
+               52.32
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30823)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30823)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30822,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30822)",
+         "name": "loc-name-OHN_fl-4124",
+         "description": "loc-desc-OHN_fl-4124",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.535,
+               52.319
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30822)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30822)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30821,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30821)",
+         "name": "loc-name-LTD_82906",
+         "description": "loc-desc-LTD_82906",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.566,
+               51.623
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30821)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30821)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30820,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30820)",
+         "name": "loc-name-LUC_354724647891214",
+         "description": "loc-desc-LUC_354724647891214",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.434,
+               51.918
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30820)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30820)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30819,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30819)",
+         "name": "loc-name-LUC_354444115535272",
+         "description": "loc-desc-LUC_354444115535272",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.292,
+               52.071
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30819)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30819)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30818,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30818)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.647,
+               52.478
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30818)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30818)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30817,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30817)",
+         "name": "loc-name-MJS_2185",
+         "description": "loc-desc-MJS_2185",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.405,
+               52.158
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30817)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30817)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30816,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30816)",
+         "name": "loc-name-MJS_2150",
+         "description": "loc-desc-MJS_2150",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.431,
+               52.154
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30816)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30816)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30815,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30815)",
+         "name": "loc-name-HLL_hl_device_264",
+         "description": "loc-desc-HLL_hl_device_264",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.656,
+               52.349
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30815)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30815)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30814,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30814)",
+         "name": "loc-name-SCL_ApriSensor-0444-pmsa003",
+         "description": "loc-desc-SCL_ApriSensor-0444-pmsa003",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.774,
+               53.446
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30814)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30814)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30813,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30813)",
+         "name": "loc-name-MJS_2185",
+         "description": "loc-desc-MJS_2185",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               0,
+               0
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30813)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30813)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30812,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30812)",
+         "name": "loc-name-LTD_82877",
+         "description": "loc-desc-LTD_82877",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               3.9,
+               51.685
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30812)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30812)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30811,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30811)",
+         "name": "loc-name-LTD_82880",
+         "description": "loc-desc-LTD_82880",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.142,
+               51.414
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30811)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30811)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30810,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30810)",
+         "name": "loc-name-HLL_hl_device_333",
+         "description": "loc-desc-HLL_hl_device_333",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.685,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30810)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30810)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30809,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30809)",
+         "name": "loc-name-HLL_hl_device_406",
+         "description": "loc-desc-HLL_hl_device_406",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.653,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30809)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30809)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30808,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30808)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.65,
+               52.476
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30808)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30808)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30807,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30807)",
+         "name": "loc-name-MJS_2150",
+         "description": "loc-desc-MJS_2150",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.398,
+               52.154
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30807)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30807)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30806,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30806)",
+         "name": "loc-name-LTD_82860",
+         "description": "loc-desc-LTD_82860",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.424,
+               52.137
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30806)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30806)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30805,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30805)",
+         "name": "loc-name-LTD_82858",
+         "description": "loc-desc-LTD_82858",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.9,
+               52.664
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30805)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30805)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30804,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30804)",
+         "name": "loc-name-HLL_hl_device_333",
+         "description": "loc-desc-HLL_hl_device_333",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.71,
+               52.475
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30804)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30804)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30803,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30803)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.639,
+               52.483
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30803)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30803)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30802,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30802)",
+         "name": "loc-name-HLL_hl_device_435",
+         "description": "loc-desc-HLL_hl_device_435",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.632,
+               52.371
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30802)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30802)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30801,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30801)",
+         "name": "loc-name-HLL_hl_device_506",
+         "description": "loc-desc-HLL_hl_device_506",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.282,
+               52.294
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30801)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30801)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30800,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30800)",
+         "name": "loc-name-OHN_fl-4178",
+         "description": "loc-desc-OHN_fl-4178",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.145,
+               52.333
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30800)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30800)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30799,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30799)",
+         "name": "loc-name-ILM_I64",
+         "description": "loc-desc-ILM_I64",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.354,
+               51.374
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30799)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30799)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30798,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30798)",
+         "name": "loc-name-ILM_I63",
+         "description": "loc-desc-ILM_I63",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.332,
+               51.359
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30798)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30798)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30797,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30797)",
+         "name": "loc-name-ILM_I62",
+         "description": "loc-desc-ILM_I62",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.318,
+               51.358
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30797)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30797)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30796,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30796)",
+         "name": "loc-name-ILM_I61",
+         "description": "loc-desc-ILM_I61",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.827,
+               51.463
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30796)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30796)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30795,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30795)",
+         "name": "loc-name-HLL_hl_device_525",
+         "description": "loc-desc-HLL_hl_device_525",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.261,
+               52.257
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30795)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30795)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30794,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30794)",
+         "name": "loc-name-HLL_hl_device_293",
+         "description": "loc-desc-HLL_hl_device_293",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.653,
+               52.494
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30794)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30794)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30793,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30793)",
+         "name": "loc-name-HLL_hl_device_435",
+         "description": "loc-desc-HLL_hl_device_435",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.636,
+               52.37
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30793)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30793)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30792,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30792)",
+         "name": "loc-name-HLL_hl_device_506",
+         "description": "loc-desc-HLL_hl_device_506",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.286,
+               52.295
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30792)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30792)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30791,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30791)",
+         "name": "loc-name-ILM_I37",
+         "description": "loc-desc-ILM_I37",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.472,
+               51.468
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30791)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30791)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30790,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30790)",
+         "name": "loc-name-LTD_82807",
+         "description": "loc-desc-LTD_82807",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.145,
+               51.682
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30790)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30790)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30789,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30789)",
+         "name": "loc-name-LTD_82806",
+         "description": "loc-desc-LTD_82806",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.864,
+               51.254
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30789)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30789)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30788,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30788)",
+         "name": "loc-name-OHN_fl-4175",
+         "description": "loc-desc-OHN_fl-4175",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.485,
+               52.52
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30788)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30788)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30787,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30787)",
+         "name": "loc-name-ILM_I37",
+         "description": "loc-desc-ILM_I37",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.318,
+               51.358
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30787)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30787)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30786,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30786)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.647,
+               52.479
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30786)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30786)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30785,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30785)",
+         "name": "loc-name-LUC_354724647886677",
+         "description": "loc-desc-LUC_354724647886677",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.487,
+               51.906
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30785)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30785)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30784,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30784)",
+         "name": "loc-name-HLL_hl_device_548",
+         "description": "loc-desc-HLL_hl_device_548",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.65,
+               52.476
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30784)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30784)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30783,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30783)",
+         "name": "loc-name-LTD_82754",
+         "description": "loc-desc-LTD_82754",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               6.134,
+               52.936
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30783)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30783)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30782,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30782)",
+         "name": "loc-name-LTD_82748",
+         "description": "loc-desc-LTD_82748",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.763,
+               51.299
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30782)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30782)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30781,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30781)",
+         "name": "loc-name-LTD_82749",
+         "description": "loc-desc-LTD_82749",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.432,
+               51.342
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30781)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30781)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30780,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30780)",
+         "name": "loc-name-LTD_82738",
+         "description": "loc-desc-LTD_82738",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.752,
+               52.08
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30780)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30780)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30779,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30779)",
+         "name": "loc-name-LTD_82740",
+         "description": "loc-desc-LTD_82740",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.74,
+               51.26
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30779)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30779)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30778,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30778)",
+         "name": "loc-name-HLL_hl_device_239",
+         "description": "loc-desc-HLL_hl_device_239",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.879,
+               52.373
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30778)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30778)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30777,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30777)",
+         "name": "loc-name-LTD_82739",
+         "description": "loc-desc-LTD_82739",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.706,
+               51.246
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30777)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30777)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30776,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30776)",
+         "name": "loc-name-HLL_hl_device_434",
+         "description": "loc-desc-HLL_hl_device_434",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.653,
+               52.495
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30776)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30776)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30775,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30775)",
+         "name": "loc-name-LUC_354724647886677",
+         "description": "loc-desc-LUC_354724647886677",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               4.493,
+               51.907
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30775)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30775)/HistoricalLocations"
+      },
+      {
+         "@iot.id": 30774,
+         "@iot.selfLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30774)",
+         "name": "loc-name-LTD_82731",
+         "description": "loc-desc-LTD_82731",
+         "encodingType": "application/vnd.geo+json",
+         "location": {
+            "coordinates": [
+               5.196,
+               51.696
+            ],
+            "type": "Point"
+         },
+         "Things@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30774)/Things",
+         "HistoricalLocations@iot.navigationLink": "https://api-samenmeten.rivm.nl/v1.0/Locations(30774)/HistoricalLocations"
+      }
+   ]
+}

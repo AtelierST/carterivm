@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map of the Netherlands</title>
+    <title>Map with Local JSON Data</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
@@ -25,10 +25,28 @@
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
-        // Add a marker to Amsterdam (example location in the Netherlands)
-        L.marker([52.3676, 4.9041]).addTo(map)
-            .bindPopup('<b>Amsterdam</b><br>The capital of the Netherlands.')
-            .openPopup();
+        // Load the JSON data from the local file
+        fetch('Locations.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Failed to load the JSON file.");
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Iterate through the locations in the JSON file
+                data.value.forEach(location => {
+                    const coords = location.location.coordinates;
+                    const name = location.name || "No name provided";
+                    const description = location.description || "No description provided";
+
+                    // Add a marker to the map
+                    L.marker([coords[1], coords[0]]) // Leaflet expects [lat, lng] format
+                        .addTo(map)
+                        .bindPopup(`<b>${name}</b><br>${description}`);
+                });
+            })
+            .catch(error => console.error("Error loading JSON file:", error));
     </script>
 </body>
 </html>
