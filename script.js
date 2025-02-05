@@ -34,10 +34,18 @@ async function fetchLatestMeasurement(datastreamId) {
 
         const data = await response.json();
         console.log("Fetched Observation:", data); // Debugging
-        return data.value.length > 0 ? data.value[0].result : "No Data";
+
+        if (data.value.length > 0) {
+            const observation = data.value[0];
+            return {
+                result: observation.result,
+                time: new Date(observation.phenomenonTime).toLocaleString("nl-NL") // Format to Dutch date-time
+            };
+        }
+        return { result: "No Data", time: "No Date" };
     } catch (error) {
         console.error("Error fetching observation:", error);
-        return "Error";
+        return { result: "Error", time: "No Date" };
     }
 }
 
@@ -67,13 +75,6 @@ async function fetchDescriptionFromObservedProperties(datastreamName) {
     }
 
     return description;
-}
-
-// Fetch the datastreams for a specific thing
-async function fetchDatastreamsForThing(thingLink) {
-    const response = await fetch(thingLink);
-    const data = await response.json();
-    return data.value[0]?.["Datastreams@iot.navigationLink"];
 }
 
 // Load sensors and display the latest data for each datastream
@@ -112,13 +113,14 @@ async function loadSensorData() {
         console.log("Fetched Datastreams:", datastreamData);
 
         for (const datastream of datastreamData.value) {
-            const measurement = await fetchLatestMeasurement(datastream["@iot.id"]);
+            const { result, time } = await fetchLatestMeasurement(datastream["@iot.id"]);
             const description = await fetchDescriptionFromObservedProperties(datastream.name); // Fetch description based on the name field
 
             const listItem = document.createElement("li");
             listItem.innerHTML = `
-                <strong>${thing.name || "Unknown Sensor"}</strong> (${datastream.name}): ${measurement} (${description})<br>
-                <strong>Location:</strong> ${latitude}, ${longitude}
+                <strong>${thing.name || "Unknown Sensor"}</strong> (${datastream.name}): ${result} (${description})<br>
+                <strong>Datum:</strong> ${time}<br>
+                <strong>Locatie:</strong> ${latitude}, ${longitude}
             `;
             sensorList.appendChild(listItem);
         }
