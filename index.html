@@ -1,52 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map with Local JSON Data</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <title>Live Sensor Data</title>
     <style>
-        #map {
-            height: 100vh;
-            margin: 0;
-        }
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f4f4f4; margin: 5px 0; padding: 10px; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <div id="map"></div>
-    <script>
-        // Initialize the map and set its view to the Netherlands
-        const map = L.map('map').setView([52.2, 5.4], 7);
+    <h1>Live Sensor Data</h1>
+    <p>Real-time data from SamenMeten RIVM</p>
+    <ul id="sensor-list">Loading...</ul>
 
-        // Add OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Load the JSON data from the local file
-        fetch('Locations.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Failed to load the JSON file.");
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Iterate through the locations in the JSON file
-                data.value.forEach(location => {
-                    const coords = location.location.coordinates;
-                    const name = location.name || "No name provided";
-                    const description = location.description || "No description provided";
-
-                    // Add a marker to the map
-                    L.marker([coords[1], coords[0]]) // Leaflet expects [lat, lng] format
-                        .addTo(map)
-                        .bindPopup(`<b>${name}</b><br>${description}`);
-                });
-            })
-            .catch(error => console.error("Error loading JSON file:", error));
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
