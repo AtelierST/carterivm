@@ -41,27 +41,32 @@ async function fetchLatestMeasurement(datastreamId) {
     }
 }
 
-// Fetch unit of measurement for the datastream
-async function fetchUnitOfMeasurement(datastreamId) {
-    try {
-        const response = await fetch(`${API_BASE_URL}/Datastreams(${datastreamId})`);
-        if (!response.ok) throw new Error("Failed to fetch datastream");
+// Fetch the description from observed properties based on the datastream's name
+async function fetchDescriptionFromObservedProperties(datastreamName) {
+    let description = "Description not available";
 
-        const data = await response.json();
-        console.log("Fetched Datastream Data:", data); // Log full response to check the structure
-
-        const unitOfMeasurement = data.value[0]?.unitOfMeasurement;
-        if (unitOfMeasurement && unitOfMeasurement.symbol) {
-            console.log("Unit of Measurement Symbol:", unitOfMeasurement.symbol); // Debug log for symbol
-            return unitOfMeasurement.symbol; // Return the symbol if it exists
-        } else {
-            console.log("Unit of Measurement Symbol not found or is missing");
-            return "Unit not available"; // Default if symbol is not available
-        }
-    } catch (error) {
-        console.error("Error fetching unit of measurement:", error);
-        return "Unit not available"; // Default in case of error
+    // Match the name field and assign the corresponding description
+    if (datastreamName.includes("temp")) {
+        description = "temperatuur"; // Match for temperature
+    } else if (datastreamName.includes("pres")) {
+        description = "atmosferische druk"; // Match for atmospheric pressure
+    } else if (datastreamName.includes("rh")) {
+        description = "relatieve vochtigheid"; // Match for relative humidity
+    } else if (datastreamName.includes("nh3")) {
+        description = "ammoniak"; // Match for ammonia
+    } else if (datastreamName.includes("no2")) {
+        description = "stikstofdioxide"; // Match for nitrogen dioxide
+    } else if (datastreamName.includes("pm25_kal")) {
+        description = "fijnstof gekalibreerd < 2.5microm"; // Match for calibrated fine dust < 2.5 microns
+    } else if (datastreamName.includes("pm10_kal")) {
+        description = "fijnstof gekalibreerd < 10microm"; // Match for calibrated fine dust < 10 microns
+    } else if (datastreamName.includes("pm25")) {
+        description = "fijnstof < 2.5microm"; // Match for fine dust < 2.5 microns
+    } else if (datastreamName.includes("pm10")) {
+        description = "fijnstof < 10microm"; // Match for fine dust < 10 microns
     }
+
+    return description;
 }
 
 // Fetch the datastreams for a specific thing
@@ -108,11 +113,11 @@ async function loadSensorData() {
 
         for (const datastream of datastreamData.value) {
             const measurement = await fetchLatestMeasurement(datastream["@iot.id"]);
-            const unitOfMeasurement = await fetchUnitOfMeasurement(datastream["@iot.id"]);
+            const description = await fetchDescriptionFromObservedProperties(datastream.name); // Fetch description based on the name field
 
             const listItem = document.createElement("li");
             listItem.innerHTML = `
-                <strong>${thing.name || "Unknown Sensor"}</strong> (${datastream.name}): ${measurement} ${unitOfMeasurement}<br>
+                <strong>${thing.name || "Unknown Sensor"}</strong> (${datastream.name}): ${measurement} (${description})<br>
                 <strong>Location:</strong> ${latitude}, ${longitude}
             `;
             sensorList.appendChild(listItem);
