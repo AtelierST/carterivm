@@ -1,24 +1,21 @@
 const API_BASE_URL = "https://api-samenmeten.rivm.nl/v1.0";
 const sensorList = document.getElementById("sensor-list");
+const loadButton = document.createElement("button");
+loadButton.textContent = "Most Recent Measurements";
+loadButton.addEventListener("click", loadSensorData);
+document.body.insertBefore(loadButton, sensorList);
 
-// Fetch all sensor locations with pagination
 async function fetchSensorLocations() {
     let sensors = [];
     let nextLink = `${API_BASE_URL}/Locations`;
-
     try {
         while (nextLink) {
             const response = await fetch(nextLink);
             if (!response.ok) throw new Error("Failed to fetch sensor locations");
-
             const data = await response.json();
-            console.log("Fetched Locations:", data); // Debugging
             sensors = [...sensors, ...(data.value || [])];
-
-            // Check if there is a next page
             nextLink = data["@iot.nextLink"];
         }
-
         return sensors;
     } catch (error) {
         console.error("Error fetching sensor locations:", error);
@@ -26,20 +23,16 @@ async function fetchSensorLocations() {
     }
 }
 
-// Fetch latest measurement for a sensor's datastream
 async function fetchLatestMeasurement(datastreamId) {
     try {
         const response = await fetch(`${API_BASE_URL}/Datastreams(${datastreamId})/Observations?$top=1&$orderby=phenomenonTime desc`);
         if (!response.ok) throw new Error("Failed to fetch observation");
-
         const data = await response.json();
-        console.log("Fetched Observation:", data); // Debugging
-
         if (data.value.length > 0) {
             const observation = data.value[0];
             return {
                 result: observation.result,
-                time: new Date(observation.phenomenonTime).toLocaleString("nl-NL") // Format to Dutch date-time
+                time: new Date(observation.phenomenonTime).toLocaleString("nl-NL")
             };
         }
         return { result: "No Data", time: "No Date" };
@@ -49,35 +42,24 @@ async function fetchLatestMeasurement(datastreamId) {
     }
 }
 
-// Fetch the description from observed properties based on the datastream's name
 async function fetchDescriptionFromObservedProperties(datastreamName) {
-    let description = "Description not available";
-
-    // Match the name field and assign the corresponding description
-    if (datastreamName.includes("temp")) {
-        description = "temperatuur"; // Match for temperature
-    } else if (datastreamName.includes("pres")) {
-        description = "atmosferische druk"; // Match for atmospheric pressure
-    } else if (datastreamName.includes("rh")) {
-        description = "relatieve vochtigheid"; // Match for relative humidity
-    } else if (datastreamName.includes("nh3")) {
-        description = "ammoniak"; // Match for ammonia
-    } else if (datastreamName.includes("no2")) {
-        description = "stikstofdioxide"; // Match for nitrogen dioxide
-    } else if (datastreamName.includes("pm25_kal")) {
-        description = "fijnstof gekalibreerd < 2.5microm"; // Match for calibrated fine dust < 2.5 microns
-    } else if (datastreamName.includes("pm10_kal")) {
-        description = "fijnstof gekalibreerd < 10microm"; // Match for calibrated fine dust < 10 microns
-    } else if (datastreamName.includes("pm25")) {
-        description = "fijnstof < 2.5microm"; // Match for fine dust < 2.5 microns
-    } else if (datastreamName.includes("pm10")) {
-        description = "fijnstof < 10microm"; // Match for fine dust < 10 microns
+    const descriptions = {
+        temp: "temperatuur",
+        pres: "atmosferische druk",
+        rh: "relatieve vochtigheid",
+        nh3: "ammoniak",
+        no2: "stikstofdioxide",
+        pm25_kal: "fijnstof gekalibreerd < 2.5microm",
+        pm10_kal: "fijnstof gekalibreerd < 10microm",
+        pm25: "fijnstof < 2.5microm",
+        pm10: "fijnstof < 10microm"
+    };
+    for (const key in descriptions) {
+        if (datastreamName.includes(key)) return descriptions[key];
     }
-
-    return description;
+    return "Description not available";
 }
 
-// Load sensors and display the latest data for each datastream
 async function loadSensorData() {
     sensorList.innerHTML = "Loading sensors...";
     const sensors = await fetchSensorLocations();
@@ -85,37 +67,20 @@ async function loadSensorData() {
         sensorList.innerHTML = "<li>No sensors found.</li>";
         return;
     }
-
-    sensorList.innerHTML = ""; // Clear loading message
-
+    sensorList.innerHTML = "";
     for (const sensor of sensors) {
-        console.log("Processing Sensor:", sensor);
-
-        // Extract latitude and longitude from the sensor location
         const { coordinates } = sensor.location || {};
-        const latitude = coordinates && coordinates[1] ? coordinates[1] : "Latitude not available";
-        const longitude = coordinates && coordinates[0] ? coordinates[0] : "Longitude not available";
-
-        // Fetch associated thing
+        const latitude = coordinates?.[1] ?? "Latitude not available";
+        const longitude = coordinates?.[0] ?? "Longitude not available";
         const thingResponse = await fetch(sensor["Things@iot.navigationLink"]);
         const thingData = await thingResponse.json();
-        console.log("Fetched Thing:", thingData);
-
         const thing = thingData.value[0];
-        if (!thing || !thing["Datastreams@iot.navigationLink"]) {
-            console.warn("No datastreams for thing:", thing);
-            continue;
-        }
-
-        // Fetch datastreams for the sensor
+        if (!thing || !thing["Datastreams@iot.navigationLink"]) continue;
         const datastreamResponse = await fetch(thing["Datastreams@iot.navigationLink"]);
         const datastreamData = await datastreamResponse.json();
-        console.log("Fetched Datastreams:", datastreamData);
-
         for (const datastream of datastreamData.value) {
             const { result, time } = await fetchLatestMeasurement(datastream["@iot.id"]);
-            const description = await fetchDescriptionFromObservedProperties(datastream.name); // Fetch description based on the name field
-
+            const description = await fetchDescriptionFromObservedProperties(datastream.name);
             const listItem = document.createElement("li");
             listItem.innerHTML = `
                 <strong>${thing.name || "Unknown Sensor"}</strong> (${datastream.name}): ${result} (${description})<br>
@@ -126,6 +91,3 @@ async function loadSensorData() {
         }
     }
 }
-
-// Load sensor data when page loads
-loadSensorData();
