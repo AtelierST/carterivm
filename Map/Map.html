@@ -8,10 +8,20 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    <!-- Add your other stylesheets here -->
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #map {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+    </style>
 </head>
 <body>
-    <div id="map" style="height: 600px;"></div> <!-- Map container -->
+    <div id="map"></div> <!-- Map container -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script> <!-- Link to your existing JavaScript file -->
 </body>
